@@ -14,11 +14,12 @@ public class objectController : MonoBehaviour
     }
     private void Update()
     {
-        if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit,(transform.localScale.y * 0.5f) + 0.05f, trayLayer))
+        if (Physics.Raycast(transform.position, Vector3.down, out RaycastHit hit,(transform.localScale.y * 1f) + 0.05f, trayLayer))
         { 
             TrayController controll = hit.transform.GetComponentInParent<TrayController>();
             {
                 transform.SetParent(controll.itemHolder);
+                rb.useGravity = true;
             }
         }
         else

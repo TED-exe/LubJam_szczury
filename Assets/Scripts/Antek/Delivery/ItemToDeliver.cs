@@ -9,18 +9,26 @@ public class ItemToDeliver : MonoBehaviour
     [SerializeField] private SOFloat pointsTotal;
 
     private int childCount;
+    [SerializeField] private GameObject itemHolder;
+    private List<GameObject> childs = new List<GameObject>();
    
    private void OnTriggerEnter(Collider other)
    {
        if (other.tag == "Delivery") //test
        {
-          childCount = transform.childCount;
-          for (int i = 0; i < childCount;)
+          childCount = itemHolder.transform.childCount;
+          for (int i = 0; i < childCount; i++)
           {
-             points += transform.GetChild(i).gameObject.GetComponent<NumberofPoints>().points;
-             transform.GetChild(i).gameObject.GetComponent<NumberofPoints>().isDelivered = true;
+              childs.Add(itemHolder.transform.GetChild(i).gameObject);
           }
-           
+
+          for (int i = 0; i < childs.Count; i++)
+          {
+              points += childs[i].GetComponent<NumberofPoints>().points;
+              childs[i].GetComponent<NumberofPoints>().isDelivered = true;
+          }
+          
+           childs.Clear(); 
            pointsTotal.value += points;
            GameEventDelivery.current.ItemDestroy();
        }
