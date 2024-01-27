@@ -3,12 +3,12 @@
     "maps": [
         {
             "name": "Fucking_Controller",
-            "id": "be07f211-55c9-4ef9-813a-e5baf82f7d5e",
+            "id": "ffff9524-8727-4eaf-be0c-5c69fdbcd284",
             "actions": [
                 {
                     "name": "Movement_Waiter",
                     "type": "Value",
-                    "id": "7f449d04-2f00-4226-902d-1541470315dd",
+                    "id": "70a37561-2e9e-4d9e-a79e-4f75d987d0e3",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -17,7 +17,7 @@
                 {
                     "name": "Movement_FuckingRat",
                     "type": "Value",
-                    "id": "f41ea76e-51ea-4be7-a416-bef0c6a5d7dd",
+                    "id": "5ccd4f7c-f39d-4271-ad2e-6fae5b6f9f05",
                     "expectedControlType": "",
                     "processors": "",
                     "interactions": "",
@@ -27,23 +27,23 @@
             "bindings": [
                 {
                     "name": "",
-                    "id": "7118e147-1b7a-4969-aebd-beb50adf514c",
-                    "path": "<Gamepad>/leftStick",
+                    "id": "08abcb87-4aeb-43b7-aad9-e584a5d08280",
+                    "path": "<Gamepad>/rightStick",
                     "interactions": "",
                     "processors": "",
                     "groups": "",
-                    "action": "Movement_FuckingRat",
+                    "action": "Movement_Waiter",
                     "isComposite": false,
                     "isPartOfComposite": false
                 },
                 {
                     "name": "",
-                    "id": "32ab3571-237d-4ca7-b838-1eb8d56b8dbe",
-                    "path": "<Gamepad>/rightStick",
+                    "id": "0326cbaa-d601-4387-a370-15f96b5f76a3",
+                    "path": "<Gamepad>/leftStick",
                     "interactions": "",
-                    "processors": "AxisDeadzone",
+                    "processors": "",
                     "groups": "",
-                    "action": "Movement_Waiter",
+                    "action": "Movement_FuckingRat",
                     "isComposite": false,
                     "isPartOfComposite": false
                 }
