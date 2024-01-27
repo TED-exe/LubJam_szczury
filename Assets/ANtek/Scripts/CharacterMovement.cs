@@ -14,7 +14,7 @@ public class CharacterMovement : MonoBehaviour
     [SerializeField] private bool isFuckingRat;
     private CharacterController characterController;
     private Rigidbody rb;
-    private Vector2 playerDirection;
+    public Vector2 playerDirection;
 
     private void Awake()
     {
