@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Prefabs/PROGRAMMING/Main Camera.prefab.meta
 guid: 7c0be4f7c4d4ce349ad2a8d3ef962b37
+========
+guid: 19ea6a262000492428650cab6170b57b
+>>>>>>>> 644d2292889f142fe53ff2e1dbff0e54fb2430e5:Assets/Prefabs/PROGRAMMING/Player.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
