@@ -5067,6 +5067,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Blockout
       objectReference: {fileID: 0}
+    - target: {fileID: 2052493209996857044, guid: 5ad7f0967ff5f434890bd06a230ac645, type: 3}
+      propertyPath: m_Size.x
+      value: 4.57
+      objectReference: {fileID: 0}
     - target: {fileID: 2312342947199378870, guid: 5ad7f0967ff5f434890bd06a230ac645, type: 3}
       propertyPath: m_LocalScale.z
       value: 3.597781
@@ -5074,6 +5078,10 @@ PrefabInstance:
     - target: {fileID: 2312342947199378870, guid: 5ad7f0967ff5f434890bd06a230ac645, type: 3}
       propertyPath: m_LocalPosition.z
       value: 25.22
+      objectReference: {fileID: 0}
+    - target: {fileID: 4271522579395132025, guid: 5ad7f0967ff5f434890bd06a230ac645, type: 3}
+      propertyPath: m_Size.y
+      value: 2.3
       objectReference: {fileID: 0}
     - target: {fileID: 7314037685901428020, guid: 5ad7f0967ff5f434890bd06a230ac645, type: 3}
       propertyPath: m_LocalPosition.x
