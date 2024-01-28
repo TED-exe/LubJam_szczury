@@ -3,7 +3,7 @@ using System.Collections.Generic;
 using UnityEngine;
 
 public class PlayerSpawnOnCamera : MonoBehaviour
-{w
+{
    [SerializeField] private GameObject player;
    [SerializeField] private GameObject spawnPoint;
    public void PlayerSpawn()
