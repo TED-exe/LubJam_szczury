@@ -6,6 +6,11 @@ using UnityEngine.UI;
 
 public class DeliverySpace : MonoBehaviour
 {
+    private void Awake()
+    {
+        gameObject.SetActive(false);
+    }
+
     private void OnTriggerEnter(Collider other)
     {
         if (other.tag == "Dish")
