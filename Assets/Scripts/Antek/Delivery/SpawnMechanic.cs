@@ -18,6 +18,7 @@ public class DeliveryMechanic : MonoBehaviour
     private int timeInt;
     [SerializeField] private TextMeshProUGUI timeText;
     [SerializeField] private SOFloat points;
+    [SerializeField] private PickUpObject pickUpObject;
     
     void Start()
     { 
@@ -45,6 +46,8 @@ public class DeliveryMechanic : MonoBehaviour
         deliverySpace = Random.Range(0, DeliveryPlace.Count - 1); 
         deliverySpacePlace = DeliveryPlace[deliverySpace];
         deliverySpacePlace.SetActive(true);
-        Instantiate(deliveryList.list[itemOnList],gameObject.transform.position,gameObject.transform.rotation);
+        pickUpObject.spawnedObjectPrefab = Instantiate(deliveryList.list[itemOnList].pickUpOrder,gameObject.transform.position,gameObject.transform.rotation);
+        pickUpObject.spawnedObject = deliveryList.list[itemOnList];
+        
     }
 }
