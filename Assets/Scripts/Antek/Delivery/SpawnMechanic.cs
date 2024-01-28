@@ -15,7 +15,9 @@ public class DeliveryMechanic : MonoBehaviour
     private GameObject deliverySpacePlace;
     [SerializeField] float maxtime;
     private float time;
+    private int timeInt;
     [SerializeField] private TextMeshProUGUI timeText;
+    [SerializeField] private SOFloat points;
     
     void Start()
     { 
@@ -30,8 +32,9 @@ public class DeliveryMechanic : MonoBehaviour
         {
             Debug.Log("Lose");
         }
-
-        timeText.text = time.ToString();
+        
+        timeInt = Mathf.FloorToInt(time);
+        timeText.text = timeInt.ToString();
     }
 
 
