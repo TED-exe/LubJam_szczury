@@ -7,6 +7,7 @@ public class ItemToDeliver : MonoBehaviour
 {
     private int points;
     [SerializeField] private SOFloat pointsTotal;
+    [SerializeField] private SOFloat pointsGained;
 
     private int childCount;
     [SerializeField] private GameObject itemHolder;
@@ -28,8 +29,10 @@ public class ItemToDeliver : MonoBehaviour
               childs[i].GetComponent<NumberofPoints>().isDelivered = true;
           }
           
-           childs.Clear(); 
+           childs.Clear();
+           pointsGained.value = points;
            pointsTotal.value += points;
+           points = 0;
            GameEventDelivery.current.ItemDestroy();
        }
    }
