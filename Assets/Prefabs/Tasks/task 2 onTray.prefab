@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 8086398936290940766}
   m_Layer: 0
-  m_Name: TaskThree
+  m_Name: task 2 onTray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -25,7 +25,7 @@ Transform:
   m_GameObject: {fileID: 6855221473398321543}
   serializedVersion: 2
   m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.848, y: 1.535, z: -4.294}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -45,6 +45,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8086398936290940766}
     m_Modifications:
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5795829168084981705, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
       propertyPath: m_Name
       value: food_koreczki (1)
@@ -110,6 +114,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8086398936290940766}
     m_Modifications:
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5795829168084981705, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
       propertyPath: m_Name
       value: food_koreczki (4)
@@ -175,6 +183,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8086398936290940766}
     m_Modifications:
+    - target: {fileID: 3099932287344137274, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 7318698850344683923, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
       propertyPath: m_LocalScale.x
       value: 15.534119
@@ -249,6 +261,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8086398936290940766}
     m_Modifications:
+    - target: {fileID: 3099932287344137274, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 7318698850344683923, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
       propertyPath: m_LocalScale.x
       value: 12.101544
@@ -323,6 +339,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8086398936290940766}
     m_Modifications:
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5795829168084981705, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
       propertyPath: m_Name
       value: food_koreczki (3)
@@ -388,6 +408,10 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 8086398936290940766}
     m_Modifications:
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5795829168084981705, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
       propertyPath: m_Name
       value: food_koreczki (2)

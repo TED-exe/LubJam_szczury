@@ -10,6 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 3836262561029731948}
   - component: {fileID: 9040323702236383249}
+  - component: {fileID: -8087681975218067022}
   m_Layer: 0
   m_Name: TaskSpawner
   m_TagString: Untagged
@@ -53,3 +54,17 @@ MonoBehaviour:
   - {fileID: 0}
   maxtime: 40
   timeText: {fileID: 0}
+  points: {fileID: 0}
+--- !u!114 &-8087681975218067022
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 6452920080010827578}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 94dfd278f1395ea41bbd325eaa1e6a83, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  spawnedObject: {fileID: 0}
