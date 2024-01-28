@@ -41,6 +41,7 @@ public class DeliveryMechanic : MonoBehaviour
 
     void ItemSpawn()
     {
+        Debug.Log("1");
         time = maxtime;
         itemOnList = Random.Range(0, deliveryList.list.Count - 1);
         deliverySpace = Random.Range(0, DeliveryPlace.Count - 1); 
