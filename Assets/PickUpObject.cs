@@ -11,6 +11,7 @@ public class PickUpObject : MonoBehaviour
     {
         if(other.CompareTag("Player"))
         {
+            Debug.Log("tak");
             if(spawnedObjectPrefab != null)
             {
                 Instantiate(spawnedObject.onTrayOrder, itemSpawnPlace.position, Quaternion.identity);
