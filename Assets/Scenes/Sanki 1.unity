@@ -24,7 +24,7 @@ RenderSettings:
   m_AmbientEquatorColor: {r: 0.114, g: 0.125, b: 0.133, a: 1}
   m_AmbientGroundColor: {r: 0.047, g: 0.043, b: 0.035, a: 1}
   m_AmbientIntensity: 1
-  m_AmbientMode: 4
+  m_AmbientMode: 0
   m_SubtractiveShadowColor: {r: 0.42, g: 0.478, b: 0.627, a: 1}
   m_SkyboxMaterial: {fileID: 0}
   m_HaloStrength: 0.5
@@ -488,7 +488,7 @@ GameObject:
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
   m_StaticEditorFlags: 0
-  m_IsActive: 1
+  m_IsActive: 0
 --- !u!81 &717239572
 AudioListener:
   m_ObjectHideFlags: 0
@@ -824,6 +824,16 @@ MonoBehaviour:
   m_EditorClassIdentifier: 
   player: {fileID: 2562567510266618938, guid: 19ea6a262000492428650cab6170b57b, type: 3}
   spawnPoint: {fileID: 1967206244}
+--- !u!1 &735309904 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 2440189067664714765, guid: 19ea6a262000492428650cab6170b57b, type: 3}
+  m_PrefabInstance: {fileID: 990876736}
+  m_PrefabAsset: {fileID: 0}
+--- !u!4 &735309905 stripped
+Transform:
+  m_CorrespondingSourceObject: {fileID: 1282348150026499268, guid: 19ea6a262000492428650cab6170b57b, type: 3}
+  m_PrefabInstance: {fileID: 990876736}
+  m_PrefabAsset: {fileID: 0}
 --- !u!1 &740005370
 GameObject:
   m_ObjectHideFlags: 0
@@ -1196,6 +1206,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: Player
       objectReference: {fileID: 0}
+    - target: {fileID: 2562567510266618938, guid: 19ea6a262000492428650cab6170b57b, type: 3}
+      propertyPath: m_IsActive
+      value: 0
+      objectReference: {fileID: 0}
     - target: {fileID: 6819295163532550613, guid: 19ea6a262000492428650cab6170b57b, type: 3}
       propertyPath: m_LocalPosition.x
       value: -10.174
@@ -1371,13 +1385,17 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
+    - target: {fileID: 8464143626061667734, guid: 19ea6a262000492428650cab6170b57b, type: 3}
+      propertyPath: m_TagString
+      value: Player
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents:
-    - targetCorrespondingSourceObject: {fileID: 1848409984262691885, guid: 19ea6a262000492428650cab6170b57b, type: 3}
+    - targetCorrespondingSourceObject: {fileID: 8464143626061667734, guid: 19ea6a262000492428650cab6170b57b, type: 3}
       insertIndex: -1
-      addedObject: {fileID: 1645362456}
+      addedObject: {fileID: 1299734820}
   m_SourcePrefab: {fileID: 100100000, guid: 19ea6a262000492428650cab6170b57b, type: 3}
 --- !u!1001 &1015035341
 PrefabInstance:
@@ -1653,6 +1671,26 @@ MonoBehaviour:
   m_PointlightHDType: 0
   m_SpotLightShape: 0
   m_AreaLightShape: 0
+--- !u!1 &1299734814 stripped
+GameObject:
+  m_CorrespondingSourceObject: {fileID: 8464143626061667734, guid: 19ea6a262000492428650cab6170b57b, type: 3}
+  m_PrefabInstance: {fileID: 990876736}
+  m_PrefabAsset: {fileID: 0}
+--- !u!114 &1299734820
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1299734814}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 40679a269711e894f9846c29f158f125, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  pointsTotal: {fileID: 11400000, guid: e414c057ed549c44e991a0788e38d79a, type: 2}
+  pointsGained: {fileID: 11400000, guid: 1e415cb1cb1920c48bed6276df03be3a, type: 2}
+  itemHolder: {fileID: 735309904}
 --- !u!1 &1466674668
 GameObject:
   m_ObjectHideFlags: 0
@@ -1826,26 +1864,6 @@ Transform:
   m_Children: []
   m_Father: {fileID: 0}
   m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
---- !u!1 &1645362453 stripped
-GameObject:
-  m_CorrespondingSourceObject: {fileID: 1848409984262691885, guid: 19ea6a262000492428650cab6170b57b, type: 3}
-  m_PrefabInstance: {fileID: 990876736}
-  m_PrefabAsset: {fileID: 0}
---- !u!114 &1645362456
-MonoBehaviour:
-  m_ObjectHideFlags: 0
-  m_CorrespondingSourceObject: {fileID: 0}
-  m_PrefabInstance: {fileID: 0}
-  m_PrefabAsset: {fileID: 0}
-  m_GameObject: {fileID: 1645362453}
-  m_Enabled: 1
-  m_EditorHideFlags: 0
-  m_Script: {fileID: 11500000, guid: 40679a269711e894f9846c29f158f125, type: 3}
-  m_Name: 
-  m_EditorClassIdentifier: 
-  pointsTotal: {fileID: 11400000, guid: e414c057ed549c44e991a0788e38d79a, type: 2}
-  pointsGained: {fileID: 11400000, guid: 1e415cb1cb1920c48bed6276df03be3a, type: 2}
-  itemHolder: {fileID: 894939182}
 --- !u!1001 &1792156679
 PrefabInstance:
   m_ObjectHideFlags: 0
@@ -2174,7 +2192,7 @@ PrefabInstance:
     - target: {fileID: -8087681975218067022, guid: 7f3db5c27c5a95842b9ed04696a3e036, type: 3}
       propertyPath: itemSpawnPlace
       value: 
-      objectReference: {fileID: 894939183}
+      objectReference: {fileID: 735309905}
     - target: {fileID: 3836262561029731948, guid: 7f3db5c27c5a95842b9ed04696a3e036, type: 3}
       propertyPath: m_LocalPosition.x
       value: -1.947
@@ -2219,6 +2237,10 @@ PrefabInstance:
       propertyPath: m_Name
       value: TaskSpawner
       objectReference: {fileID: 0}
+    - target: {fileID: 9040323702236383249, guid: 7f3db5c27c5a95842b9ed04696a3e036, type: 3}
+      propertyPath: points
+      value: 
+      objectReference: {fileID: 11400000, guid: 1e415cb1cb1920c48bed6276df03be3a, type: 2}
     - target: {fileID: 9040323702236383249, guid: 7f3db5c27c5a95842b9ed04696a3e036, type: 3}
       propertyPath: timeText
       value: 
@@ -2588,5 +2610,5 @@ SceneRoots:
   - {fileID: 552924108}
   - {fileID: 7171308263356074517}
   - {fileID: 2542137573474624815}
-  - {fileID: 1510540006}
   - {fileID: 883425181}
+  - {fileID: 990876736}
