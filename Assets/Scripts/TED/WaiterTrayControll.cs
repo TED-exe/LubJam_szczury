@@ -15,7 +15,6 @@ public class WaiterTrayControll : MonoBehaviour
         var localPosition = holdTrayPosition.localPosition;
         var globalPosition = transform.TransformPoint(localPosition);
         trayTransform.position = globalPosition;
-        midlePoint.localPosition = Vector3.zero;
         trayTransform.rotation = transform.rotation;
     }
 }
