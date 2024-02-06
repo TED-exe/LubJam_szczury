@@ -19,6 +19,8 @@ public class DeliveryMechanic : MonoBehaviour
     [SerializeField] private TextMeshProUGUI timeText;
     [SerializeField] private SOFloat points;
     [SerializeField] private PickUpObject pickUpObject;
+
+    [SerializeField] GameObject loseScreen;
     
     void Start()
     { 
@@ -31,7 +33,8 @@ public class DeliveryMechanic : MonoBehaviour
         time -= Time.deltaTime;
         if (time < 0)
         {
-            Debug.Log("Lose");
+            Time.timeScale = 0f;
+            loseScreen.SetActive(true);
         }
         
         timeInt = Mathf.FloorToInt(time);

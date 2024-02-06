@@ -10,6 +10,7 @@ public class PlayGame : MonoBehaviour
 
     public void AnimatorOn()
     {
+        Time.timeScale = 1; 
         animator.SetTrigger("Trigger");
     }
 }
