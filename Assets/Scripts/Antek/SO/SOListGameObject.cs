@@ -4,5 +4,5 @@ using UnityEngine;
 [CreateAssetMenu]
 public class SOGameObject : ScriptableObject
 {
-   public List<GameObject> list = new List<GameObject>();
+   public List<SO_OrderHolder> list = new List<SO_OrderHolder>();
 }

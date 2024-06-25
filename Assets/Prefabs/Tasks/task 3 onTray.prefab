@@ -10,7 +10,7 @@ GameObject:
   m_Component:
   - component: {fileID: 1911921082833935686}
   m_Layer: 0
-  m_Name: TaskTwo
+  m_Name: task 3 onTray
   m_TagString: Untagged
   m_Icon: {fileID: 0}
   m_NavMeshLayer: 0
@@ -24,8 +24,8 @@ Transform:
   m_PrefabAsset: {fileID: 0}
   m_GameObject: {fileID: 7602879096300337333}
   serializedVersion: 2
-  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
-  m_LocalPosition: {x: -0.374, y: 1.515, z: -3.889}
+  m_LocalRotation: {x: 0, y: 0.7096285, z: 0, w: 0.7045761}
+  m_LocalPosition: {x: -8.352625, y: 1.2669296, z: 6.216971}
   m_LocalScale: {x: 1, y: 1, z: 1}
   m_ConstrainProportionsScale: 0
   m_Children:
@@ -46,6 +46,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1911921082833935686}
     m_Modifications:
+    - target: {fileID: 1424081003815765881, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1424081003815765881, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: velMultiplayer
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5795829168084981705, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
       propertyPath: m_Name
       value: food_koreczki (1)
@@ -102,7 +118,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7862374307572457385, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: points
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8285089338997817285, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+    - {fileID: 562080373323187940, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+    - {fileID: 3409070823533567517, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -120,6 +143,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1911921082833935686}
     m_Modifications:
+    - target: {fileID: 1424081003815765881, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1424081003815765881, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: velMultiplayer
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5795829168084981705, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
       propertyPath: m_Name
       value: food_koreczki (3)
@@ -176,7 +215,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7862374307572457385, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: points
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8285089338997817285, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+    - {fileID: 562080373323187940, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+    - {fileID: 3409070823533567517, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -194,6 +240,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1911921082833935686}
     m_Modifications:
+    - target: {fileID: 542169117829206027, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 542169117829206027, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 943441996962966907, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
+      propertyPath: points
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3760318084771924749, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.9393716
@@ -250,6 +308,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: Szczuras (2)
       objectReference: {fileID: 0}
+    - target: {fileID: 4638280547005804320, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
+      propertyPath: velMultiplayer
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638280547005804320, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -268,6 +334,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1911921082833935686}
     m_Modifications:
+    - target: {fileID: 1424081003815765881, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1424081003815765881, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: velMultiplayer
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5795829168084981705, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
       propertyPath: m_Name
       value: food_koreczki (4)
@@ -324,7 +406,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7862374307572457385, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: points
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 8285089338997817285, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+    - {fileID: 562080373323187940, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+    - {fileID: 3409070823533567517, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -342,6 +431,22 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1911921082833935686}
     m_Modifications:
+    - target: {fileID: 1424081003815765881, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1424081003815765881, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: velMultiplayer
+      value: 0.3
+      objectReference: {fileID: 0}
+    - target: {fileID: 1585499117540087027, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
+      objectReference: {fileID: 0}
     - target: {fileID: 5795829168084981705, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
       propertyPath: m_Name
       value: food_koreczki (2)
@@ -398,7 +503,14 @@ PrefabInstance:
       propertyPath: m_LocalEulerAnglesHint.z
       value: 0
       objectReference: {fileID: 0}
-    m_RemovedComponents: []
+    - target: {fileID: 7862374307572457385, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+      propertyPath: points
+      value: 5
+      objectReference: {fileID: 0}
+    m_RemovedComponents:
+    - {fileID: 3409070823533567517, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+    - {fileID: 562080373323187940, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
+    - {fileID: 8285089338997817285, guid: ffe719ec898a08144b6b2371ea82747c, type: 3}
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
     m_AddedComponents: []
@@ -416,17 +528,17 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1911921082833935686}
     m_Modifications:
-    - target: {fileID: 7318698850344683923, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
-      propertyPath: m_LocalScale.x
-      value: 13.74653
+    - target: {fileID: 2857481741829470105, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
+      propertyPath: points
+      value: 5
       objectReference: {fileID: 0}
-    - target: {fileID: 7318698850344683923, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
-      propertyPath: m_LocalScale.y
-      value: 13.74653
+    - target: {fileID: 3099932287344137274, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
+      propertyPath: velMultiplayer
+      value: 1.8
       objectReference: {fileID: 0}
-    - target: {fileID: 7318698850344683923, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
-      propertyPath: m_LocalScale.z
-      value: 13.74653
+    - target: {fileID: 3099932287344137274, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     - target: {fileID: 7318698850344683923, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
       propertyPath: m_LocalPosition.x
@@ -472,6 +584,14 @@ PrefabInstance:
       propertyPath: m_Name
       value: pizza (1)
       objectReference: {fileID: 0}
+    - target: {fileID: 7993659096976008040, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
+      propertyPath: m_Drag
+      value: 2
+      objectReference: {fileID: 0}
+    - target: {fileID: 7993659096976008040, guid: 64f028acd847a9447a88117f4cfaa25f, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []
     m_AddedGameObjects: []
@@ -490,6 +610,18 @@ PrefabInstance:
     serializedVersion: 3
     m_TransformParent: {fileID: 1911921082833935686}
     m_Modifications:
+    - target: {fileID: 542169117829206027, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
+      propertyPath: m_Drag
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 542169117829206027, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
+      propertyPath: m_Mass
+      value: 1
+      objectReference: {fileID: 0}
+    - target: {fileID: 943441996962966907, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
+      propertyPath: points
+      value: 5
+      objectReference: {fileID: 0}
     - target: {fileID: 3760318084771924749, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
       propertyPath: m_LocalScale.x
       value: 4.9393716
@@ -545,6 +677,14 @@ PrefabInstance:
     - target: {fileID: 4567923035964608951, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
       propertyPath: m_Name
       value: Szczuras (1)
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638280547005804320, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
+      propertyPath: velMultiplayer
+      value: 0.7
+      objectReference: {fileID: 0}
+    - target: {fileID: 4638280547005804320, guid: eec86cbb0ff3dca439379fa5c0dbd132, type: 3}
+      propertyPath: trayLayer.m_Bits
+      value: 64
       objectReference: {fileID: 0}
     m_RemovedComponents: []
     m_RemovedGameObjects: []

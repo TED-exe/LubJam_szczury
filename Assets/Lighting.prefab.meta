@@ -1,5 +1,9 @@
 fileFormatVersion: 2
+<<<<<<<< HEAD:Assets/Lighting.prefab.meta
 guid: a31da4d7931906442a7a9331fafadb12
+========
+guid: ab6d8b822fb54e049a7537f0f2a4f043
+>>>>>>>> 644d2292889f142fe53ff2e1dbff0e54fb2430e5:Assets/Prefabs/GameObject.prefab.meta
 PrefabImporter:
   externalObjects: {}
   userData: 
